@@ -1,0 +1,57 @@
+前置！
+head的小logo步骤
+1.把logo转化为ico格式
+2.放入根目录
+3.在head里引入<link rel="icon" href="favicon.ico" />
+
+TDK (提高pagerank)
+-Title
+--网站名 - 网站介绍
+-Description (<meta name="description" content="">)
+--简要说明网站主要是做什么的
+-Keywords (<meta name="keywords" content="">)
+--6～8个页面关键词
+
+shortcut模块！
+line-height可以继承，给父元素加，子元素也会垂直居中(text-align同理)
+小竖线用小li做：给个height然后width设为1px然后给个background color
+
+header模块！
+LOGO SEO优化
+1. logo里放个h1标签，提权
+2. h1里放链接返回首页
+3. 链接里放网站名称，不要显示出来(font-size:0)
+4. 给链接一个title属性，这样鼠标放上去能看到文字
+
+padding dynamically撑开盒子
+定位的左对齐可以达到气泡向右撑开的效果
+
+nav模块！
+鼠标放到li上，li里的a变颜色
+.dropdown .dd ul li:hover a {
+    color: #cb1623;
+}
+
+下面代码是给li添加一个子元素
+.dropdown .dd ul li::after
+
+footer模块！
+文字会围绕浮动的图片
+精灵图的移动都是负的
+
+main news模块！
+用vertical align: middle对齐a和a::after
+
+recom模块！
+小竖线也可以用after伪元素，然后给宽高，background颜色
+
+floor模块！
+小竖线也可以用手打｜，然后给前面的元素左右margin
+一般情况下，a如果包含有宽度的盒子，a需要转为快级元素
+
+秒杀skcontainer模块
+border会移动盒子，所以给他一个透明的border，然后hover再换颜色即可
+清除浮动给浮动元素的父亲clearfix
+
+注册regformm模块
+给宽度可以右对齐text-align：right
