@@ -63,7 +63,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(/images/error.png);
+    background-image: url(images/error.png);
     vertical-align: middle;
     margin-top: -2px;
 }
@@ -76,7 +76,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(/images/success.png);
+    background-image: url(images/success.png);
     vertical-align: middle;
     margin-top: -2px;
 }
